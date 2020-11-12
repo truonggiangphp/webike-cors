@@ -26,12 +26,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Webike\\Cors\\": "src/"
+      "Webikevn\\Cors\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Webike\\Cors\\Tests\\": "tests/"
+      "Webikevn\\Cors\\Tests\\": "tests/"
     }
   },
   "extra": {
@@ -40,7 +40,7 @@
     },
     "laravel": {
       "providers": [
-        "Webike\\Cors\\CorsServiceProvider"
+        "Webikevn\\Cors\\CorsServiceProvider"
       ]
     }
   },

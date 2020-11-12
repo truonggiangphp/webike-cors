@@ -1,6 +1,6 @@
 <?php
 
-namespace Webike\Cors;
+namespace Webikevn\Cors;
 
 use Closure;
 use Illuminate\Http\Request;

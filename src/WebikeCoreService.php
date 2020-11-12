@@ -1,6 +1,6 @@
 <?php
 
-namespace Webike\Cors;
+namespace Webikevn\Cors;
 
 use Asm89\Stack\CorsService;
 
