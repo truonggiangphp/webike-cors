@@ -8,7 +8,7 @@ use Illuminate\Contracts\Container\Container;
 use Illuminate\Foundation\Http\Events\RequestHandled;
 use Symfony\Component\HttpFoundation\Response;
 
-class HandleCors
+class WebikeHandleCors
 {
     /** @var WebikeCoreService $cors */
     protected $cors;
