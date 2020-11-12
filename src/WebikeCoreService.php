@@ -12,6 +12,6 @@ class WebikeCoreService extends CorsService
      */
     public function isCorsRequest(Request $request)
     {
-        return $request->headers->has('Origin') && !$this->isSameHost($request);
+        return config('webike_cors.enable_cors_check') && !$this->isSameHost($request);
     }
 }

@@ -86,7 +86,7 @@ class HandleCors
     protected function isMatchingPath(Request $request): bool
     {
         // Get the paths from the config or the middleware
-        $paths = $this->container['config']->get('cors.paths', []);
+        $paths = $this->container['config']->get('webike_cors.paths', []);
 
         foreach ($paths as $path) {
             if ($path !== '/') {

@@ -16,10 +16,10 @@ class CorsServiceProvider extends BaseServiceProvider
      */
     public function register()
     {
-        $this->mergeConfigFrom($this->configPath(), 'cors');
+        $this->mergeConfigFrom($this->configPath(), 'webike_cors');
 
         $this->app->singleton(WebikeCoreService::class, function ($app) {
-            $config = $app['config']->get('cors');
+            $config = $app['config']->get('webike_cors');
 
             if ($config['exposed_headers'] && !is_array($config['exposed_headers'])) {
                 throw new \RuntimeException('CORS config `exposed_headers` should be `false` or an array');
@@ -73,7 +73,7 @@ class CorsServiceProvider extends BaseServiceProvider
      */
     protected function configPath()
     {
-        return __DIR__ . '/../config/cors.php';
+        return __DIR__ . '/../config/webike_cors.php';
     }
 
     /**
