@@ -20,11 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e494d3c7-f84f-4333-9fc9-6219d0964af4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/webike_cors.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CorsServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/CorsServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WebikeCoreService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebikeCoreService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WebikeHandleCors.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebikeHandleCors.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +52,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605183908683</updated>
-      <workItem from="1605183909887" duration="623000" />
+      <workItem from="1605183909887" duration="778000" />
     </task>
     <servers />
   </component>

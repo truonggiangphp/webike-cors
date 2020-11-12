@@ -26,12 +26,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Fruitcake\\Cors\\": "src/"
+      "Webike\\Cors\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Fruitcake\\Cors\\Tests\\": "tests/"
+      "Webike\\Cors\\Tests\\": "tests/"
     }
   },
   "extra": {
