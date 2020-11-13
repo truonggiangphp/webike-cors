@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e494d3c7-f84f-4333-9fc9-6219d0964af4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WebikeCoreService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebikeCoreService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CorsServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/CorsServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WebikeCoreService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebikeCorsService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WebikeHandleCors.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/WebikeHandleCors.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +57,7 @@
       <updated>1605183908683</updated>
       <workItem from="1605183909887" duration="2540000" />
       <workItem from="1605230939600" duration="448000" />
-      <workItem from="1605252238187" duration="285000" />
+      <workItem from="1605252238187" duration="507000" />
     </task>
     <servers />
   </component>
@@ -74,5 +75,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1605252820947">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1605252820947" />
   </component>
 </project>

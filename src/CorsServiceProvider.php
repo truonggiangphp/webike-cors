@@ -18,7 +18,7 @@ class CorsServiceProvider extends BaseServiceProvider
     {
         $this->mergeConfigFrom($this->configPath(), 'webike_cors');
 
-        $this->app->singleton(WebikeCoreService::class, function ($app) {
+        $this->app->singleton(WebikeCorsService::class, function ($app) {
             $config = $app['config']->get('webike_cors');
 
             if ($config['exposed_headers'] && !is_array($config['exposed_headers'])) {
@@ -49,7 +49,7 @@ class CorsServiceProvider extends BaseServiceProvider
                 }
             }
 
-            return new WebikeCoreService($options, $app);
+            return new WebikeCorsService($options, $app);
         });
     }
 

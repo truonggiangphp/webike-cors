@@ -10,13 +10,13 @@ use Symfony\Component\HttpFoundation\Response;
 
 class WebikeHandleCors
 {
-    /** @var WebikeCoreService $cors */
+    /** @var WebikeCorsService $cors */
     protected $cors;
 
     /** @var \Illuminate\Contracts\Container\Container $container */
     protected $container;
 
-    public function __construct(WebikeCoreService $cors, Container $container)
+    public function __construct(WebikeCorsService $cors, Container $container)
     {
         $this->cors = $cors;
         $this->container = $container;

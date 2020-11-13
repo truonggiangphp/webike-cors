@@ -5,7 +5,7 @@ namespace Webikevn\Cors;
 use Asm89\Stack\CorsService;
 use Symfony\Component\HttpFoundation\Request;
 
-class WebikeCoreService extends CorsService
+class WebikeCorsService extends CorsService
 {
     /**
      * @param Request $request
