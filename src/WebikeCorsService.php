@@ -13,12 +13,14 @@ class WebikeCorsService extends CorsService
      */
     public function isCorsRequest(Request $request)
     {
+        if(!config('webike_cors.enable_cors_check')) {
+            return false;
+        }
         //Detect if not call by Laravel, it mean call from another service
         if (!$this->isLaravelRequest($request) && !$this->isActualRequestAllowed($request)) {
             return true;
         }
-        return config('webike_cors.enable_cors_check') &&
-            $request->headers->has('Origin') &&
+        return $request->headers->has('Origin') &&
             !$this->isSameHost($request);
     }
 
