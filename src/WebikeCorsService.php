@@ -39,7 +39,7 @@ class WebikeCorsService extends CorsService
      */
     private function isLaravelRequest(Request $request): bool
     {
-        return $request->header('User-Agent') && $request->cookie(config('webike_cors.session_name')) && !$this->isBot();
+        return $request->header('User-Agent') && ($request->cookie(config('webike_cors.session_name')) || !$this->isBot());
     }
 
     /**
